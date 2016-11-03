@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("#analyze").click(function(event){
+	$("form").submit(function(event){
 		event.preventDefault();
 		$("dl").show();	
 		var txt = $("#user-text").val();
